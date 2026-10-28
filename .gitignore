@@ -1,0 +1,21 @@
+
+# Ignore frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Ignore Python virtual environments
+venv/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore private environment variables
+.env
+.env.*
+!.env.example
+
+# Ignore generated system files
+.DS_Store
